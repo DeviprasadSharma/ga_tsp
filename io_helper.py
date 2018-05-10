@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 
-# Create io_helper (see https://pypi.org/project/io-helper/) soltanoff 10.05.18 17:35
+# Create io_helper (see https://pypi.org/project/io-helper/)
 
 
 def read_tsp(filename):
