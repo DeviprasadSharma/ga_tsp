@@ -4,6 +4,9 @@ import numpy as np
 import pandas as pd
 
 
+# Create io_helper (see https://pypi.org/project/io-helper/) soltanoff 10.05.18 17:35
+
+
 def read_tsp(filename):
     """
     Read a file in .tsp format into a pandas DataFrame
