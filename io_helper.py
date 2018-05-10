@@ -40,9 +40,6 @@ def read_tsp(filename):
             header=None,
             nrows=dimension
         )
-
-        # cities.set_index('city', inplace=True)
-
         return cities
 
 
