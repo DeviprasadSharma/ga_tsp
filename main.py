@@ -15,5 +15,4 @@ if __name__ == '__main__':
     ga_solver = CGASolver(tsp_map)
     route = ga_solver.solve(100000)
 
-    distance = route_distance(tsp_map.reindex(route))
-    print('Route found of length {}'.format(distance))
+    print('Route found of length {}'.format(route_distance(tsp_map.reindex(route))))
