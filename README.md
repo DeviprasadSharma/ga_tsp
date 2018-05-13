@@ -8,7 +8,9 @@ a widespread format in this problem.
 To run the code, only Python 3 and the dependencies `matplotlib`, `numpy` and `pandas`
 which are included in the Anaconda distribution by default) are needed. In case
 you are not using Anaconda, you can install all the dependencies with:
+
 `pip3 install -r requirements.txt`
 
 To run the code, simply execute:
+
 `python3 main.py assets/<instance>.tsp`
