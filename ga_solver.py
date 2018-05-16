@@ -37,7 +37,7 @@ class CGASolver(object):
                 print('Radius has completely decayed, finishing execution at {} iterations'.format(i))
                 break
             if killing_rate < 0.001:
-                print('Learning rate has completely decayed, finishing execution at {} iterations'.format(i))
+                print('Killing rate has completely decayed, finishing execution at {} iterations'.format(i))
                 break
         else:
             print('Completed {} iterations.'.format(iterations))
