@@ -11,4 +11,4 @@ you are not using Anaconda, you can install all the dependencies with:
 `pip3 install -r requirements.txt`
 
 To run the code, simply execute:
-`python3 main.py assets/<instance>.tsp`
+`python3 main.py assets/<asset_name>.tsp`
